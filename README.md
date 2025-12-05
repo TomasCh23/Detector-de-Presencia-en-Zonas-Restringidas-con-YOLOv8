@@ -6,6 +6,26 @@
 
 Sistema de visión artificial diseñado para transformar una cámara de vigilancia pasiva en un sensor activo inteligente. Este proyecto permite definir zonas de interés (ROI) interactivamente y detectar intrusiones humanas en tiempo real, generando un registro detallado de eventos para auditoría.
 
+## 📥 Entregables y Recursos
+
+Los videos de prueba, la demostración del funcionamiento y la presentación oficial del proyecto se encuentran disponibles en el siguiente enlace:
+
+### 📂 [ACCEDER A CARPETA DE RECURSOS (Google Drive)](https://drive.google.com/drive/folders/1VNNMhsakjiw_ImGJkQVFftAPR2miqbJF?usp=drive_link)
+
+El enlace anterior contiene los siguientes archivos esenciales:
+
+1.  **`Video_Prueba.mp4`**:
+    * *Descripción:* Grabación cruda de un escenario real (sin procesar).
+    * *Uso:* **Descarga este video** y colócalo en la carpeta del proyecto. Úsalo como entrada para ejecutar el código `main.py` y probar el sistema tú mismo.
+
+2.  **`Video_Demostracion.mp4`**:
+    * *Descripción:* Video captura del sistema ya funcionando, procesando el video de prueba.
+    * *Uso:* Visualizar el funcionamiento final del software (detección, cambios de color, logs y generación de CSV) sin necesidad de ejecutar el código.
+
+3.  **`Presentacion_Vision_Artificial`** (PPT/PDF):
+    * *Descripción:* Diapositivas oficiales para la defensa del proyecto.
+    * *Contenido:* Introducción, Arquitectura Técnica, Desafíos de Implementación y Conclusiones.
+
 ## 🚀 Características Principales
 
 * **Definición Interactiva de Zonas:** Dibuja polígonos personalizados de cualquier forma sobre el video utilizando el mouse.
@@ -21,8 +41,6 @@ Sistema de visión artificial diseñado para transformar una cámara de vigilanc
 ## 📁 Estructura del Proyecto
 
 ```text
-├── assets/
-│   └── video_prueba.mp4   # Video de demostración (Opcional)
 ├── main.py                # Código fuente principal
 ├── requirements.txt       # Lista de dependencias necesarias
 └── README.md              # Documentación del proyecto
